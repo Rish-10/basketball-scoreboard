@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "CursedTimerUlil";
+    src: url(CursedTimerUlil.ttf);
+}
+
+body {
+    align-content: center;
+    margin: 0;
+    background-color: whitesmoke;
+    height: 100vh;
+    color: #9AABD8;
+}
+
+
+.wrapper {
+    height: 500px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.scoreboard { 
+    align-items: center;
+    margin: 0;
+    background-color: #1B244A;
+    border: 3px outset white;
+    border-radius: 15px; 
+    height: 350px;
+    width: 80vh;
+    position: relative;
+}
+
+
+.title {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.container {
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: space-around; 
+    text-align: center;
+}
+
+
+
+
+
+
+.blackboard {
+    background-color: #080001;
+    height: 120px;
+    width: 170px;
+    margin-top: -55px;
+    margin-bottom: 25px;
+    color: #F94F6D;
+    font-size: 50px;
+    border-radius: 5px;
+    font-family: "CursedTimerULil";
+}
+
+
+
+#home-points {
+    padding-top: 10px;
+}
+
+
+#away-points {
+    padding-top: 10px;
+}
+
+
+
+#point-button {
+    background: transparent;
+    color: #9AABD8;
+    border-radius: 3px; 
+    font-size: larger;
+
+    border: 1px solid #9AABD8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: "CursedTimerUlil";
+}
+
+
+
+#new-game {
+    background: transparent;
+    color: #9AABD8;
+    border-radius: 3px; 
+    font-size: larger;
+    margin-top: 100px;
+    border: 1px solid #9AABD8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    border-radius: 5px;
+    font-family: "CursedTimerUlil";
+}
