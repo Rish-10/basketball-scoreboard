@@ -1,6 +1,4 @@
 # basketball-scoreboard
-Solo project on Scrimba Course
-
 Hi, 
 
 This is a project I built as part of the Scrimba Frontend Developer Course. 
