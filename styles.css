@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "CursedTimerUlil";
+    src: url("CursedTimerUlil.ttf")
+}
+
+body {
+    margin: 0; 
+    background-color: whitesmoke;
+    color: #9AABD8;
+    font-family: "CursedTimerULil";
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+#center-wrap {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+}
+
+#wrapper {
+    margin-top: 80px;
+    height: 350px; 
+    display: flex; 
+    justify-content: space-around;
+    background-color: #1B244A; 
+    border: 3px solid white;
+    border-radius: 15px; 
+    width: 700px;
+    text-align: center;
+    padding-left: 15px; 
+    padding-right: 15px; 
+}
+
+.title {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: bold; 
+    font-size: 42px; 
+    margin-top: 30px; 
+    margin-bottom: 10px; 
+}
+
+.buttons {
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 30px; 
+}
+
+
+.blackboard {
+    background-color: #080001;
+    height: 120px; 
+    width: 200px; 
+    color: #F94F6D;
+    font-size: 50px; 
+    border-radius: 5px; 
+    font-family: "CursedTimerULil"; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+
+#home-points {
+    padding-top: 10px; 
+}
+
+#away-points {
+    padding-top: 10px; 
+}
+
+.point-button {
+    background: transparent;
+    color: #9AABD8;
+    border-radius: 5px; 
+    font-size: larger;
+    border: 1px solid #9AABD8; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    font-family: "CursedTimerULil";
+    padding-left: 10px; 
+    padding-right: 10px; 
+}
+
+#new-game {
+    background: transparent; 
+    color: #9AABD8; 
+    border-radius: 3px; 
+    font-size: larger; 
+    margin-top: 100px; 
+    border: 1px solid #9AABD8; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    width: 100px; 
+    border-radius: 5px; 
+    font-family: "CursedTimerULil";
+}
